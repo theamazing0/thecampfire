@@ -1,0 +1,110 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{
+					"coordinates": [-4, 20, -4, 8, 8, 8],
+					"uvNorth": [16, 8, 8, 16],
+					"uvEast": [24, 8, 16, 16],
+					"uvSouth": [32, 8, 24, 16],
+					"uvWest": [8, 8, 0, 16],
+					"uvUp": [8, 8, 16, 0],
+					"uvDown": [16, 0, 24, 8],
+					"sizeAdd": -0.5
+				},
+				{
+					"coordinates": [-4, 21.5, -4, 8, 8, 8],
+					"uvNorth": [64, 0, 48, 16],
+					"uvEast": [48, 0, 32, 16],
+					"uvSouth": [48, 0, 32, 16],
+					"uvWest": [48, 0, 32, 16],
+					"uvUp": [64, 16, 48, 32],
+					"uvDown": [64, 16, 48, 32],
+					"sizeAdd": 1.1
+				}
+			]
+		},
+		{
+			"part": "left_hand",
+			"id": "left_hand",
+			"invertAxis": "xy",
+			"translate": [-15, -18, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{
+					"coordinates": [4, 16, -1, 12, 2, 2],
+					"uvNorth": [14, 62, 2, 64],
+					"uvEast": [16, 62, 14, 64],
+					"uvSouth": [28, 62, 16, 64],
+					"uvWest": [2, 62, 0, 64],
+					"uvUp": [2, 62, 14, 60],
+					"uvDown": [14, 60, 26, 62],
+					"sizeAdd": -0.5
+				}
+			]
+		},
+		{
+			"part": "right_hand",
+			"id": "right_hand",
+			"invertAxis": "xy",
+			"translate": [5, -18, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{
+					"coordinates": [-16, 16, -1, 12, 2, 2],
+					"uvNorth": [14, 62, 2, 64],
+					"uvEast": [16, 62, 14, 64],
+					"uvSouth": [28, 62, 16, 64],
+					"uvWest": [2, 62, 0, 64],
+					"uvUp": [2, 62, 14, 60],
+					"uvDown": [14, 60, 26, 62],
+					"sizeAdd": -0.5
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -11, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{
+					"coordinates": [-5, 11, -5, 10, 10, 10],
+					"uvNorth": [20, 26, 10, 36],
+					"uvEast": [30, 26, 20, 36],
+					"uvSouth": [40, 26, 30, 36],
+					"uvWest": [10, 26, 0, 36],
+					"uvUp": [10, 26, 20, 16],
+					"uvDown": [20, 16, 30, 26],
+					"sizeAdd": -0.5
+				}
+			]
+		},
+		{
+			"part": "body_bottom",
+			"id": "body_bottom",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{
+					"coordinates": [-6, 0, -6, 12, 12, 12],
+					"uvNorth": [24, 48, 12, 60],
+					"uvEast": [36, 48, 24, 60],
+					"uvSouth": [48, 48, 36, 60],
+					"uvWest": [12, 48, 0, 60],
+					"uvUp": [12, 48, 24, 36],
+					"uvDown": [24, 36, 36, 48],
+					"sizeAdd": -0.5
+				}
+			]
+		}
+	]
+}
